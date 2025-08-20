@@ -1,0 +1,18 @@
+.pokemon-card {
+  background:radial-gradient(circle,white,#F3E5AB);
+  transition: all 0.3s ease;
+}
+
+.pokemon-card:hover {
+ background: radial-gradient(circle, white, #caba79); 
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.backArrow{
+  transition: all 0.3s ease;
+}
+
+.backArrow:hover{
+  transform: scale(1.2);
+}
